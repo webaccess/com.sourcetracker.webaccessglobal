@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/sourcetracker/newsource</path>
+    <page_callback>CRM_SearchEntity_Form_SearchEntity</page_callback>
+    <title>Sourcetracker</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+   <item>
+    <path>civicrm/sourcetracker/ajaxcall</path>
+    <page_callback>CRM_SearchEntity_Form_SearchEntity::ajaxcall</page_callback>
+    <title>Sourcetracker</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/sourcetracker/search</path>
+    <page_callback>CRM_SearchEntity_Page_View_SearchEntity</page_callback>
+    <title>Sourcetracker</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+   <item>
+    <path>civicrm/sourcetracker/search/delete</path>
+    <page_callback>CRM_SearchEntity_Form_Delete</page_callback>
+    <title>Sourcetracker</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/sourcetracker/report/sourcetracker</path>
+    <page_callback>CRM_Report_Form_SearchEntity_SourceTracker</page_callback>
+    <title>Sourcetracker Report</title>
+    <access_arguments>access CiviCRM</access_arguments>
+    <access_callback>1</access_callback>
+  </item> 
+</menu>
